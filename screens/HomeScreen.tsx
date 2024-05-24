@@ -24,9 +24,7 @@ const HomeScreen = ({ navigation }: Props) => {
         title="Join call"
         onPress={() => {
           navigation.navigate('VideoCallScreen', {
-            params: {
-              username,
-            },
+            username,
           });
         }}
       />
